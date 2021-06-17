@@ -1,0 +1,1 @@
+<?php$selectedVideo = '';foreach($VideoLanguages as $VideoLanguage){	$selectedVideo .= '<option value="'.$VideoLanguage['Video']['id'].'">'.html_entity_decode(substr($VideoLanguage['VideoLanguage']['title'],0,30), ENT_QUOTES).'</option>';}echo $selectedVideo;exit;?>

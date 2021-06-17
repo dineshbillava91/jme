@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* Reset CSS*/
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+
+body { line-height:1; background:#fff top center no-repeat; font-family:Arial, Helvetica, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; margin:auto; }
+
+nav ul { list-style-type:none; }
+
+input, select, fieldset { vertical-align:middle; border:none; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; }
+
+img, input, input:focus { outline:none; border:0;}
+
+textarea { resize:none; outline:none; border:0; }
+
+select{ ouline:none;}
+
+* { padding:0; margin:0; resize:none; /*list-style-type:none;*/ }
+
+*:focus { outline: none; }
+
+p { padding:5px 0; }
+
+.clear{clear:both;}
+   .topBorderRadius{-webkit-border-top-left-radius: 05px;
+                                -webkit-border-top-right-radius: 05px;
+                                -moz-border-radius-topleft: 05px;
+                                -moz-border-radius-topright: 05px;
+                                border-top-left-radius: 05px;
+                                border-top-right-radius: 05px;}
+                  .btmBorderRadius{ -webkit-border-bottom-right-radius: 5px;
+                                -webkit-border-bottom-left-radius: 5px;
+                                -moz-border-radius-bottomright: 5px;
+                                -moz-border-radius-bottomleft: 5px;
+                                border-bottom-right-radius: 5px;
+                                border-bottom-left-radius: 5px;}
+
+	
+   .bidMerPreviewBTM{float:left; width:410px; background-color:#fff; -webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;}
+.paddingTop0{ padding-top:0px !important;}
+.marginTop10{ margin-top:10px !important;}
+.marginTop15{ margin-top:15px !important;}
+.calibiri17Gray{  color:#585858; font-size:17px; font-family:Calibri;}
+.calibiri20Black{ color:#292929; font-size:20px; font-family:Calibri; float:left; padding:20px 0px 0px 7px; }
+.calibiri20Black1{ color:#292929; font-size:20px; font-family:Calibri; float:left; padding:19px 0px 0px 7px; }
+
+.hrRow{ width:100%; float:left; clear:both; border-top:solid 1px #f3f3f3; padding-bottom:15px;}
+.hrRow1{ width:100%; float:left; clear:both; border-top:solid 1px #f3f3f3; padding-bottom:5px;}
+.hrRow2{ width:100%; float:left; clear:both; border-top:solid 1px #f3f3f3; padding:0px; margin:0px; height:1px;}
+.hrRow2px{ width:100%; float:left; clear:both; border-bottom:solid 2px #f3f3f3; padding:0px 0px 0px 0px; margin:0px 0px 20px 0px; height:1px;}
+.hrRow3{ width:100%; float:left; clear:both; border-top:solid 2px #f3f3f3; padding-bottom:20px;}
+.hrRow4{ width:100%; float:left; clear:both; border-top:solid 2px #f3f3f3; padding-bottom:25px;}
+.hrRow5{ width:100%; float:left; clear:both; border-top:solid 2px #f3f3f3; margin-top:5px; height:1px; padding:0px;}
+
+.font22{ font-size:22px; font-weight:bold; text-transform:uppercase; color:#292929; float:left; padding:21px 0px 0px 7px !important;}
+
+.font22Small{ font-size:20px; font-weight:bold; color:#292929; float:left; padding:21px 0px 0px 7px !important;}
+.font22SmallNew{ font-size:20px; font-weight:bold; color:#292929; float:left; padding:22px 0px 0px 7px !important;}
+
+.paddingbtm0{ padding-bottom:0px !important;}
+.paddingTop0{ padding-top:0px !important;}
+.paddingTop5{ padding-top:5px !important;}
+.paddingTop10{ padding-top:10px !important;}
+.paddingTop15{ padding-top:15px !important;}
+.ccDevider{; float:left; padding:10px 2px 0px 2px; font-size:17px; color:#585858;}
+.mrgRgt20{ margin-right:15px !important; margin-bottom:15px !important;} 
+
+
+/***********************  Position and Index CLasses***************/
+.posIndex	{ position:relative; z-index:99999;}
+.posIndex1{ position:relative;   z-index:99998;}
+.posIndex2{ position:relative;   z-index:9999;}
+
+
+.adminDashboard{
+	padding:20px 0px 100px 20px;
+	font-family: Calibri;
+	color: #3A3A3A;
+	line-height: 20px;
+	font-weight:bold;
+}
